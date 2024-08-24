@@ -1,8 +1,27 @@
 console.log('***** Music Collection *****')
 // Safe Zone -- Write code below this line
 
+// - Create an empty array named `myCollection`.
+let myCollection = [];
 
 
+// - Create a function named `addToCollection`. It should have this basic structure:
+  // - ```js
+  //     function addToCollection(collection, title, artist, yearPublished) {
+  //       // your code here...
+  //     }
+  //   ```
+
+  function addToCollection(collection, title, artist, yearPublished) { 
+    let newAlbum = {
+      title: 'title',
+      artist: 'artist',
+      yearPublished: 'yearPublished'
+    }
+  }
+
+  collection.push(newAlbum);
+  return newAlbum
 
 
 
